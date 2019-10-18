@@ -26,12 +26,12 @@ class CubeMaker extends CuboidMaker{
 }
 
 
-const cuboid = new CuboidMaker({
+let cuboid = new CuboidMaker({
     length: 4,
     width: 5,
     height: 5,
 });
-const cube = new CubeMaker({
+let cube = new CubeMaker({
     length:4,
     width: 5,
     height: 4
